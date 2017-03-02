@@ -1,2 +1,3 @@
-# Static-webpage-template
-This is what I start with when creating a new static website. 
+# Static webpage template
+
+This is what I start with whencreating a new static website. 
