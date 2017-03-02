@@ -1,20 +1,20 @@
 /*******************************************   RESETS   *******************************************/
 @import url(normalize.css);
-/* line 4, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 4, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%; }
 
-/* line 11, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 11, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 * {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
 @media print {
-  /* line 18, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+  /* line 18, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
   *,
   *:before,
   *:after {
@@ -23,19 +23,19 @@ html {
     background: transparent !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
-  /* line 27, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+  /* line 27, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
   a,
   a:visited {
     text-decoration: underline; }
-  /* line 31, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+  /* line 31, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
   a[href]:after {
     content: " (" attr(href) ")"; } }
 
-/* line 38, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 38, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 a {
   text-decoration: none; }
 
-/* line 42, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 42, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 ol,
 ul {
   list-style: none;
@@ -45,33 +45,33 @@ ul {
 /*******************************************   DEFAULTS   *******************************************/
 /* Variables */
 /* Classes & helper elements */
-/* line 67, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 67, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 .pageBreak {
   display: none; }
 
-/* line 71, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 71, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 .clearFix {
   clear: both; }
 
 /* Global style */
-/* line 77, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 77, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 body {
   font-size: 16px;
   font-family: "Lucida Grande", Helvetica, sans-serif; }
 
-/* line 83, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 83, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 a:link {
   color: blue; }
 
-/* line 86, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 86, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 a:visited {
   color: blue; }
 
-/* line 89, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 89, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 a:hover {
   color: blue; }
 
-/* line 92, /Users/iMilan/Coding/Web development/Template/CSS/style.scss */
+/* line 92, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 a:active {
   color: red; }
 
