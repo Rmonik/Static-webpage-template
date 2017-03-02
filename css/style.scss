@@ -1,0 +1,96 @@
+/*******************************************   RESETS   *******************************************/
+
+@import "normalize.css";
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*******************************************   DEFAULTS   *******************************************/
+
+
+/* Variables */
+
+$font-serif: "Lucida Bright",
+Georgia,
+serif;
+$font-sans-serif: "Lucida Grande",
+Helvetica,
+sans-serif;
+$font-monospace: Consolas,
+Monaco,
+monospace;
+
+/* Classes & helper elements */
+
+.pageBreak { // Use on <br> element to split things on new lines for mobile
+    display: none;
+}
+
+.clearFix {
+    clear: both;
+}
+
+/* Global style */
+
+body {
+    font-size: 16px;
+    font-family: $font-sans-serif;
+}
+
+a {
+    &:link {
+        color: blue;
+    }
+    &:visited {
+        color: blue;
+    }
+    &:hover {
+        color: blue;
+    }
+    &:active {
+        color: red;
+    }
+}
+
