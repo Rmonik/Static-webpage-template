@@ -1,0 +1,1 @@
+var ding = new Object();

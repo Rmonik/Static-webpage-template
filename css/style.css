@@ -1,4 +1,4 @@
-/*******************************************   RESETS   *******************************************/
+/*******************   RESETS   *******************/
 @import url(normalize.css);
 /* line 4, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
 html {
@@ -42,7 +42,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-/*******************************************   DEFAULTS   *******************************************/
+/*******************   DEFAULTS   *******************/
 /* Variables */
 /* Classes & helper elements */
 /* line 67, /Users/iMilan/Coding/PROJECTS/template/css/style.scss */
